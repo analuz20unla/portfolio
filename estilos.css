@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*css Document*/
+
+h1, h2, h3{
+    font-family: "Luxurious Script";
+    font-size: 128px;
+    font-weight: 400;
+}
+
+h4{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
