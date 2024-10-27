@@ -1,14 +1,146 @@
 @charset "utf-8";
 /*css Document*/
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #98605E;
+    font-family: "Krona One", sans-serif;
+    font-size: 12px;
+    background: #FFE2E2;
+}
+
+p{
+    line-height: 17px;
+}
+
+header{
+    border-bottom: 2px solid #98605E;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    text-align: center;
+    list-style-type: none;
+    border-right: 2px solid #98605E;
+    height: 70px;
+    align-content: center;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 h1, h2, h3{
     font-family: "Luxurious Script";
-    font-size: 128px;
     font-weight: 400;
 }
 
-h4{
-    font-family: "Krona One", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+.bienv{
+    padding: 16% 0% 18% 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/bienv.png) 0px / 100% no-repeat;
+    align-content: stretch;
+    background-position-x: center;
+    background-position-y: top;
+    max-height: 1039px;
+}
+
+h1{
+    font-size: 95px;
+    width: 453px;
+    line-height: 71%
+}
+
+.bienv div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bienv p{
+    padding-left: 21px;
+}
+
+h3{
+    font-size: 46px;
+}
+
+.introsobremi{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 146px;
+}
+
+.introsobremi div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 340px;
+    gap: 5px;
+    padding-left: 40px;
+}
+
+.introtrab{
+    padding-top: 81px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 100px;
+    background-color: #D5DED9;
+    border-top: 2px solid #98605E;
+}
+
+.introtrab p{
+    padding-bottom: 11px;
+}
+
+.botonrelleno{
+    padding: 6px 14px 6px 14px;
+    border-radius: 50px;
+    border: 2px solid #98605E;
+    background: #98605E;
+    color: #FFE2E2;
+}
+
+.botonborde{
+    padding: 4px 9px 4px 9px;
+    border-radius: 50px;
+    border: 2px solid #98605E;
+    margin-top: 14px;
+}
+
+
+.hablemos{
+    background: url(img/hablemos.png) 0px / 100% no-repeat;
+    padding: 90px 0px 200px 0px;
+}
+
+.hablemos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-right: 15%;
+}
+
+.hablemos p{
+    text-align: center;
+    width: 274px;
+    margin-bottom: 20px;
 }
