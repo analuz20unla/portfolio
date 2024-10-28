@@ -6,10 +6,14 @@
     padding: 0px;
 }
 
+html{
+    font-size: 12px;
+}
+
 body{
     color: #98605E;
     font-family: "Krona One", sans-serif;
-    font-size: 12px;
+    font-size: 1rem;
     background: #FFE2E2;
 }
 
@@ -48,7 +52,7 @@ h1, h2, h3{
 }
 
 .bienv{
-    padding: 16% 0% 18% 35px;
+    padding: 15% 0% 350px 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,8 +64,8 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 95px;
-    width: 453px;
+    font-size: 7.5rem;
+    width: 406px;
     line-height: 71%
 }
 
@@ -92,6 +96,7 @@ h3{
     max-width: 340px;
     gap: 5px;
     padding-left: 40px;
+    justify-content: center
 }
 
 .introtrab{
@@ -104,6 +109,10 @@ h3{
     padding-bottom: 100px;
     background-color: #D5DED9;
     border-top: 2px solid #98605E;
+}
+
+.introtrab a{
+    color: #D5DED9;
 }
 
 .introtrab p{
@@ -128,7 +137,8 @@ h3{
 
 .hablemos{
     background: url(img/hablemos.png) 0px / 100% no-repeat;
-    padding: 90px 0px 200px 0px;
+    height: 300px;
+    align-content: center;
 }
 
 .hablemos div{
