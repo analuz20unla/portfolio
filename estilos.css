@@ -199,11 +199,11 @@ h4{
     line-height: 1.5rem;
 }
 
+
+/*acá empieza el grid
 .datosrandom{
     padding: 50px 70px 50px 70px;
 }
-
-/*acá empieza el grid*/
 
 .datosrandom div{
     display: flex;
@@ -220,4 +220,37 @@ h4{
     text-align: center;
 }
 
-/*acá terimna el grid*/
+acá terimna el grid*/
+
+.grid-container{
+    display: grid;
+    background-color: rgb(242, 245, 213);
+    grid-template: 190px / repeat(4, 200px);
+    grid-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-items: end;
+}
+
+.grid-item{
+    text-align: center;
+    width: 128px;
+}
+
+.grid-container div{
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c{
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container h4{
+    padding-top: 20px;
+}
