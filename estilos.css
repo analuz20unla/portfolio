@@ -266,9 +266,24 @@ h2{
 }
 
 .redes{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
 }
 
 .redes p{
     width: 320px;
 }
+
+.celu{
+    transform: rotate(9deg);
+    padding-bottom: 70px;
+}
+
+.selector{
+    /*padding-top: 70px;
+    display: flex;
+    gap: 10px;*/
+}
+
