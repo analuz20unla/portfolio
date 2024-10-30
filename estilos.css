@@ -399,19 +399,21 @@ input, textarea{
 
 .nombre, .apellido, .email{
     width: 150px;
-    border-bottom: #98605E solid 3px;
+    border-bottom: #98605E solid 2px;
 }
 
 .email{
     width: 340px;
 }
 
+
 textarea{
-    border: #98605E solid 3px;
+    border: #98605E solid 2px;
     display: block;
     width: 340px;
     height: 150px;
-    padding-bottom: 0px;
+    padding: 8px;
+    resize:none;
 }
 
 .texto-contacto{
@@ -428,3 +430,35 @@ textarea{
     justify-content: space-between;
     align-items: flex-end;
 }
+
+nav h4:hover{
+    font-family: "Luxurious Script";
+    font-size: 2.5em;
+    font-style: normal;
+}
+
+.pag-actual{
+    font-family: "Luxurious Script";
+    font-size: 2.5em;
+    font-style: normal;
+}
+
+.botonrelleno:hover{
+    border-radius: 50px;
+    border: 2px solid #98605E;
+    background-color: transparent;
+    color: #98605E;
+    cursor: pointer;
+}
+
+.botonborde:hover{
+    border: 2px solid #98605E;
+    background: #98605E;
+    color: #FFE2E2;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+ 
