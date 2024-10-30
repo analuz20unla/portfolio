@@ -362,3 +362,69 @@ h2{
     justify-content: center;
     column-gap: 50px;
 }
+
+.formulario{
+    padding-top: 205px;
+    margin: 20px 0px 50px 0px;
+    height: 636px;
+    background-image: url(img/cartas-contacto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 339px;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+input, textarea{
+    background-color: transparent;
+    color: #98605E;
+    font-family: "Krona One", sans-serif;
+    font-size: 1rem;
+    border: 0px;
+    padding-bottom: 5px;
+}
+
+::placeholder{
+    color: #98605E;
+}
+
+.nombre, .apellido, .email{
+    width: 150px;
+    border-bottom: #98605E solid 3px;
+}
+
+.email{
+    width: 340px;
+}
+
+textarea{
+    border: #98605E solid 3px;
+    display: block;
+    width: 340px;
+    height: 150px;
+    padding-bottom: 0px;
+}
+
+.texto-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.botones-form{
+    display: flex;
+    width: 340px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: flex-end;
+}

@@ -2,7 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Ana Acuña</title> 
+        <title>Ana Acuña</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Luxurious+Script&display=swap" rel="stylesheet">
+        <!--link rel="icon" type="img" sizes="32x32" href="dirección de img"-->
     </head>
     <body>
         <header>
@@ -39,27 +45,35 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="formulario">
             <form method="post" action="mailto:analuzacunaunla@gmail.com ?subject=Respuesta del Formulario" enctype="text/plain">
-                <input type="text" name="Nombre" id="nombre" maxlength="30" placeholder="Nombre*" required>
-                <input type="text" name="Apellido" id="apellido" maxlength="30" placeholder="Apellido">
-                <input type="email" name="Email" id="email" maxlength="50" placeholder="Email*" required>
-                <label for="mensaje">
-                    Mensaje
-                </label>
-                <textarea name="mensaje" id="mensaje"></textarea>
-                <input type="reset" value="Borrar">
-                <input type="submit" value="Enviar">
+                <input type="text" name="Nombre" id="nombre" maxlength="30" placeholder="Nombre*" required class="nombre">
+                <input type="text" name="Apellido" id="apellido" maxlength="30" placeholder="Apellido" class="apellido">
+                <input type="email" name="Email" id="email" maxlength="50" placeholder="Email*" required class="email">
+                <div class="final-form">
+                    <div class="texto-contacto">
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+                    <div class="botones-form">
+                        <input type="reset" value="Borrar" class="botonborde">
+                        <input type="submit" value="Enviar" class="botonrelleno">
+                    </div>
+                </div>
             </form>
         </main>
         <footer>
             <p>
                 Desarrollado por Ana Acuña Todos los derechos reservados
             </p>
-            <img>
-            <img>
-            <img>
-            <img>
+            <div>
+                <img src="img/faceicon.svg" width="28px" height="33px">
+                <img src="img/behanceicon.svg" width="35px" height="35px">
+                <img src="img/igicon.svg" width="35px" height="35px">
+                <img src="img/wppicon.svg" width="35px" height="35px">
+            </div>
         </footer>
     </body>
 </html>
