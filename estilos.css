@@ -146,6 +146,7 @@ h3{
     height: 363px;
     align-content: center;
     padding-bottom: 83px;
+    padding-top: 70px;
 }
 
 .hablemos div{
@@ -344,24 +345,43 @@ h2{
     grid-row-end: 4;
 }
 
+/*-----------------------------carrusel--------------------------------*/
 
+.seccion-identidades{
+    height: 426px;
+    background-color: #D5DED9;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-ppal{
+    display: flex;
+	align-items: center;
+	position: relative;
+}
 
 .logos{
-    background-color: #D5DED9;
-    height: 426px;
     display: flex;
     flex-direction: column;
     gap: 37px;
     align-items: center;
     justify-content: center;
+    width: 945px;
 }
 
-.logos div{
-    display: flex;
-    width: 1050px;
-    justify-content: center;
+.contenedor-carrusel{
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.carrusel{
+	display: flex;
+	flex-wrap: nowrap;
     column-gap: 50px;
 }
+
 
 .formulario{
     padding-top: 205px;
