@@ -63,7 +63,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(img/bienv.png) 0px / 100% no-repeat;
+    background: url(img/inicio/bienv.png) 0px / 100% no-repeat;
     align-content: stretch;
     background-position-x: center;
     background-position-y: top;
@@ -142,7 +142,7 @@ h3{
 }
 
 .hablemos{
-    background: url(img/hablemos.png) 0px / 100% no-repeat;
+    background: url(img/inicio/hablemos.png) 0px / 100% no-repeat;
     height: 363px;
     align-content: center;
     padding-bottom: 83px;
@@ -376,7 +376,7 @@ h2{
     padding-top: 205px;
     margin: 20px 0px 50px 0px;
     height: 636px;
-    background-image: url(img/cartas-contacto.png);
+    background-image: url(img/contacto/cartas-contacto.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -471,4 +471,77 @@ input:focus, textarea:focus{
 }
 
 @media screen and (max-width:600px) {
+    p{
+        font-size: 14px;
+        line-height:22px;
+    }
+    .bienv{
+        background-color: #FFE2E2;
+        background-image: none;
+        padding: 120px 0px;
+    }
+    .introsobremi{
+        flex-direction: column;
+        align-items: center;
+    }
+    h3{
+        font-size: 81px;
+    }
+    .formulario{
+        background-image: none;
+    }
+    .hablemos{
+        background-image: none;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        padding: 50px 0px;
+    }
+    .hablemos h3{
+        font-size: 66px;
+        text-align: center;
+    }
+    .hablemos div{
+        padding: 0%;
+        width: 90%;
+    }
+    .hablemos p{
+        width: 328px;
+    }
+    .botonborde{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .introsobremi div{
+        padding-left: 0px;
+        max-width: 418px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    footer p{
+        width: 304px;
+        padding-top: 20px;
+    }
+    .introtrab div{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .introtrab img{
+        height: 400px;
+    }
+    .img-central{
+        content-visibility: hidden;
+    }
+}
+
+.boceto p{
+    padding-top: 20px;
 }
