@@ -210,7 +210,7 @@ h4{
     border-bottom: 2px solid #98605E;
     padding: 70px;
     display: grid;
-    grid-template: 190px / repeat(4, 200px);
+    grid-template: 190px / 143px 143px 172px 143px;
     grid-gap: 20px;
     justify-items: center;
     justify-content: center;
@@ -226,14 +226,12 @@ h4{
     height: 166px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-end;
 }
 
-.c{
+.c h4{
     width: 172px;
-    display: flex;
-    flex-direction: column;
 }
 
 .grid-container h4{
@@ -258,6 +256,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     padding: 0px 400px 0px 400px;
+    justify-content: center;
 }
 
 h2{
@@ -345,41 +344,31 @@ h2{
     grid-row-end: 4;
 }
 
-/*-----------------------------carrusel--------------------------------*/
-
 .seccion-identidades{
-    height: 426px;
+    height: 700px;
     background-color: #D5DED9;
     display: flex;
     justify-content: center;
-}
-
-.contenedor-ppal{
-    display: flex;
-	align-items: center;
-	position: relative;
-}
-
-.logos{
-    display: flex;
     flex-direction: column;
-    gap: 37px;
     align-items: center;
+    gap: 29px;
+}
+
+
+.galeria-img{
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    flex-wrap: wrap;
+    max-width: 524px;
     justify-content: center;
-    width: 945px;
+    align-items: center;
 }
 
-.contenedor-carrusel{
-	width: 100%;
-	padding: 20px 0;
-	overflow: hidden;
-	scroll-behavior: smooth;
-}
-
-.carrusel{
-	display: flex;
-	flex-wrap: nowrap;
-    column-gap: 50px;
+.galeria-aumentada{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
 }
 
 
@@ -481,4 +470,12 @@ input:focus, textarea:focus{
     outline: none;
 }
 
- 
+@media screen and (max-width:600px) {
+    .introsobremi {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 146px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
